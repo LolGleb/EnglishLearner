@@ -193,14 +193,17 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Слово" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qGd-zG-TSu">
-                                <rect key="frame" x="122.66666666666669" y="360.33333333333331" width="148" height="62.333333333333314"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Слово" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qGd-zG-TSu">
+                                <rect key="frame" x="8" y="357" width="377" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="128" id="IJG-pa-4b1"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="52"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bh9-lB-nid">
-                                <rect key="frame" x="31.999999999999993" y="612.66666666666663" width="115.33333333333331" height="47.666666666666629"/>
+                                <rect key="frame" x="31.999999999999993" y="675" width="115.33333333333331" height="47.666666666666629"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Помню">
                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle1"/>
@@ -210,7 +213,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N8Q-BY-hMd">
-                                <rect key="frame" x="209.33333333333337" y="612.66666666666663" width="152" height="47.666666666666629"/>
+                                <rect key="frame" x="209.33333333333337" y="675" width="152" height="47.666666666666629"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Не помню">
                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle1"/>
@@ -220,7 +223,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cледующее слово?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LMn-s3-Pir">
-                                <rect key="frame" x="85" y="550.66666666666663" width="223" height="30"/>
+                                <rect key="frame" x="85" y="613" width="223" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -246,15 +249,16 @@
                             <constraint firstItem="w3K-60-VY6" firstAttribute="top" secondItem="YcN-xp-Xsy" secondAttribute="top" constant="64" id="D5K-3d-t3F"/>
                             <constraint firstItem="I2e-30-JXa" firstAttribute="centerX" secondItem="YcN-xp-Xsy" secondAttribute="centerX" id="Jqi-sN-OQN"/>
                             <constraint firstItem="I2e-30-JXa" firstAttribute="top" secondItem="YcN-xp-Xsy" secondAttribute="top" constant="16" id="Oc1-eO-PJu"/>
+                            <constraint firstItem="qGd-zG-TSu" firstAttribute="leading" secondItem="YcN-xp-Xsy" secondAttribute="leading" constant="8" id="TrI-jP-Va0"/>
                             <constraint firstItem="bh9-lB-nid" firstAttribute="leading" secondItem="YcN-xp-Xsy" secondAttribute="leading" constant="32" id="V9s-VX-XYg"/>
                             <constraint firstItem="N8Q-BY-hMd" firstAttribute="leading" secondItem="bh9-lB-nid" secondAttribute="trailing" constant="62" id="VGm-l1-XDx"/>
                             <constraint firstItem="YcN-xp-Xsy" firstAttribute="trailing" secondItem="Sh3-Pk-wuM" secondAttribute="trailing" constant="100" id="WbS-OJ-W86"/>
+                            <constraint firstItem="YcN-xp-Xsy" firstAttribute="trailing" secondItem="qGd-zG-TSu" secondAttribute="trailing" constant="8" id="ZkW-q0-V2c"/>
                             <constraint firstItem="bh9-lB-nid" firstAttribute="top" secondItem="LMn-s3-Pir" secondAttribute="bottom" constant="32" id="a1m-5K-DGY"/>
                             <constraint firstItem="N8Q-BY-hMd" firstAttribute="top" secondItem="LMn-s3-Pir" secondAttribute="bottom" constant="32" id="aA9-Mr-jOh"/>
                             <constraint firstItem="LMn-s3-Pir" firstAttribute="centerX" secondItem="YcN-xp-Xsy" secondAttribute="centerX" id="cXk-sC-C2a"/>
-                            <constraint firstItem="qGd-zG-TSu" firstAttribute="centerX" secondItem="qIs-cW-azf" secondAttribute="centerX" id="iZv-wY-N6l"/>
                             <constraint firstItem="LMn-s3-Pir" firstAttribute="top" secondItem="qGd-zG-TSu" secondAttribute="bottom" constant="128" id="k85-wT-srx"/>
-                            <constraint firstItem="qGd-zG-TSu" firstAttribute="centerY" secondItem="qIs-cW-azf" secondAttribute="centerY" id="u1O-xa-cc4"/>
+                            <constraint firstItem="qGd-zG-TSu" firstAttribute="centerY" secondItem="YcN-xp-Xsy" secondAttribute="centerY" id="lxp-In-Ge1"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="p3g-0V-IbN"/>
