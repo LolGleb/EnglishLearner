@@ -17,6 +17,7 @@
 		E245745F296BEC31002C2651 /* WordsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E245745E296BEC31002C2651 /* WordsListViewController.swift */; };
 		E2457461296BECC7002C2651 /* WordsSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2457460296BECC7002C2651 /* WordsSet.swift */; };
 		E2457463296C0E58002C2651 /* ExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2457462296C0E58002C2651 /* ExerciseViewController.swift */; };
+		E2DD7BE4296D2B090038CCA9 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DD7BE3296D2B090038CCA9 /* Queue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		E245745E296BEC31002C2651 /* WordsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsListViewController.swift; sourceTree = "<group>"; };
 		E2457460296BECC7002C2651 /* WordsSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsSet.swift; sourceTree = "<group>"; };
 		E2457462296C0E58002C2651 /* ExerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseViewController.swift; sourceTree = "<group>"; };
+		E2DD7BE3296D2B090038CCA9 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				E245745E296BEC31002C2651 /* WordsListViewController.swift */,
 				E245745C296BEBF0002C2651 /* DetailsViewController.swift */,
 				E2457462296C0E58002C2651 /* ExerciseViewController.swift */,
+				E2DD7BE3296D2B090038CCA9 /* Queue.swift */,
 				E2457451296BE9B5002C2651 /* Assets.xcassets */,
 				E2457453296BE9B5002C2651 /* LaunchScreen.storyboard */,
 				E2457456296BE9B5002C2651 /* Info.plist */,
@@ -153,6 +156,7 @@
 				E245744D296BE9B3002C2651 /* StartScreenViewController.swift in Sources */,
 				E2457463296C0E58002C2651 /* ExerciseViewController.swift in Sources */,
 				E2457449296BE9B3002C2651 /* AppDelegate.swift in Sources */,
+				E2DD7BE4296D2B090038CCA9 /* Queue.swift in Sources */,
 				E245745F296BEC31002C2651 /* WordsListViewController.swift in Sources */,
 				E2457461296BECC7002C2651 /* WordsSet.swift in Sources */,
 				E245744B296BE9B3002C2651 /* SceneDelegate.swift in Sources */,

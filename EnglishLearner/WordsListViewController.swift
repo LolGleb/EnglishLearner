@@ -11,10 +11,11 @@ class WordsListViewController: UIViewController {
 
     @IBOutlet var wordsLabels: [UILabel]!
     
-    private let wordsList = WordsSet.first.definition
+    var setChosen: WordsSet!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let wordsList = setChosen.definition
         for (label, word) in zip(wordsLabels, wordsList) {
             label.text = word
         }
